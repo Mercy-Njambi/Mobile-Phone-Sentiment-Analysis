@@ -7,14 +7,18 @@
         <title>Model Deployment</title>
     </head>
     <body>
-        <h1>Model Deployment</h1>
+        <h1>Predict Exam Points</h1>
         <p>
-            Enter your name
+            Enter the hours studied
         </p>
-        <form action="/sub" method="POST">
-            <input type="text" name="username" placeholder="user name">
+        <form action="/" method="POST">
+            <input type="text" name="hrs" placeholder="hours studied">
             <input type="submit">
         </form>
+
+        {% if  my_marks %}
+            <p>Your predicted marks is :</p>{{ my_marks }}
+        {% endif %}
 
     </body>
 </html>
