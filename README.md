@@ -52,15 +52,19 @@ The data used for this project was scraped from amazon.com, an ecommerce platfor
 - Price - The price of the product.
 ## Models Implemented
 
-Modeling – Three algorithms were used in this analysis; three unsupervised and one supervised model.
+Modeling – 
+
+FIve algorithms were used in this analysis; three unsupervised and one supervised model.
 
  - Multinomial Naive Bayes Model implemented produced an f1 score-0.74 and ROC score-0.88
 
-- Support Vector Machine (SVM) implemented produced an f1 score -0.77 and ROC score-0.89
+- Support Vector Machine (SVM) implemented produced an f1 score -0.77 and ROC score-0.89. Even after tuning gridsearch, the SVM model did not produce better results.
 
 - XGBoost implemented produced an f1 score-0.67 and ROC score-0.84
 
 - Vader model was implemented to challenge solution. It produced an f1 score-0.63
+
+- LTSM model was also implemented to challenge solution. It produced an f1 score-0.75
 
 Evaluation 
 
