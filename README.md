@@ -4,11 +4,11 @@
 ![App Screenshot](https://miro.medium.com/max/535/1*Yzvu3Fgk-2eZDHmQ1tqgrA.png)
 
 
-
 Purchasing a product is an interaction between two entities, consumers and business owners. Consumers often use reviews to make decisions about what products to buy, while businesses, on the other hand, not only want to sell their products but also want to receive feedback in terms of consumer reviews. Consumer reviews about purchased products shared on the internet have a great impact. Human nature is generally structured to make decisions based on analyzing and getting the benefit of other consumer experience and opinions because others often have a great influence on our beliefs, behaviors, perception of reality, and the choices we make. Hence, we ask others for their feedback whenever we are deciding on doing something. Additionally, this fact applies not only to consumers but also to organizations and institutions.
 E-commerce websites have increased in popularity to the point where consumers rely on them for buying and selling. These websites give consumers the ability to write comments about different products and services, which has resulted in a huge amount of reviews becoming available. Consequently, the need to analyze these reviews to understand consumers’ feedback has increased for both vendors and consumers. However, it is difficult to read all the feedback for a particular item, especially for popular items with many comments.
 
 In this research, a predictor for consumers’ satisfaction is built on mobile phone products based on the reviews with ratings as the constructed label. We will also attempt to understand the factors that contribute to classifying reviews as positive, negative or neutral (based on important or most frequent words). This is believed to help companies improve their products and also help potential buyers make better decisions when buying products.
+
 ## Authors
 
 - [Vivian Kingasia](https://www.github.com/VivianKingasia)
@@ -22,6 +22,7 @@ In this research, a predictor for consumers’ satisfaction is built on mobile p
 ## Main Objective
 
 To perform a sentiment analysis of mobile phone reviews from Amazon website to determine how these reviews can help buyers make informed purchasing decisions and sellers to make better choices in terms of phones to sell.
+
 ## Specific Objectives
 
 1. To help companies understand their consumers’ feedback to maintain their products/services or enhance them.
@@ -35,6 +36,7 @@ To perform a sentiment analysis of mobile phone reviews from Amazon website to d
 
 
 ## Data Understanding
+
 The data used for this project was scraped from amazon.com, an ecommerce platform that sells different products. It contains more than 17 thousand reviews of unlocked mobile phones sold on between the period 2014 to August 2022. The data has 7 features:
 
 - Rating - Contains the rating awarded to a product.
@@ -50,9 +52,10 @@ The data used for this project was scraped from amazon.com, an ecommerce platfor
 - Brand and Features - The brand of the product and its relevant features.
 
 - Price - The price of the product.
+
 ## Models Implemented
 
-Modeling – 
+Modeling
 
 FIve algorithms were used in this analysis; three unsupervised and one supervised model.
 
@@ -70,6 +73,7 @@ Evaluation
 
 Several metrics were used to meet the objectives.
 The ROC score and f1 score were the main metrics used to evaluate final model which was the SVM model.
+
 ## Conclusion
 
 - Sentiment analysis is necessary to understand consumer reviews.
@@ -79,6 +83,7 @@ The ROC score and f1 score were the main metrics used to evaluate final model wh
 - Used products are more likely to get reviews as consumers hail or slam them.
 
 - Online shopping is here to stay purchases increase each passing year.
+
 ## Recommendations
 
 - Monitoring and improvement of the sentiment analysis model to improve its performance.
